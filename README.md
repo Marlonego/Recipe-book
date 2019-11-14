@@ -26,10 +26,9 @@ recipe-website/
 
 <main>
   <article>
-    <section>
-      picture
-      <section></section>
-    </section>
+    <section>Picture</section>
+    <section>Ingredients</section>
+    <section>How-To</section>
   </article>
 </main>
 <footer>all team names and roles are on the homepage</footer>
