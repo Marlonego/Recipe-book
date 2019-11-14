@@ -1,3 +1,68 @@
-h1 {
+/* Web site structure  */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+main {
+
+    padding: 10%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li::after {
+    content: "|";
+}
+
+header {
+    background-color: aqua;
+}
+
+#main {
     font-size: 2rem;
+    text-align: center;
+}
+
+/* Typography */
+
+p,
+li {
+    font-size: 1.5rem;
+}
+
+li {
+    color: blue;
+}
+
+
+/* Images */
+
+img {
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+/* Link style */
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover,
+a:focus {
+    background-color: gold;
+}
+
+a:active {
+    background-color: lightsalmon;
 }
