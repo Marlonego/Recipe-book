@@ -1,12 +1,22 @@
 /* Web site structure  */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 30vh;
+  width: 100vw;
+  background-image: url(../images/food-header.jpg);
+  background-color: #000000;
+
 html {
     scroll-behavior: smooth;
 }
 
 
 main {
-
     padding: 10%;
 }
 
