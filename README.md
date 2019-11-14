@@ -16,3 +16,21 @@ recipe-website/
 └── css/
     └──style.css
 ```
+
+### html-structure
+
+```html
+<header>
+  <nav>every page has consistent navigation and styling</nav>
+</header>
+
+<main>
+  <article>
+    <section>
+      picture
+      <section></section>
+    </section>
+  </article>
+</main>
+<footer>all team names and roles are on the homepage</footer>
+```
